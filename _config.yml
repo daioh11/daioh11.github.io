@@ -1,73 +1,34 @@
-### your site title here
+title: H4ck3r P0rtf0li0
+description: A hacker-themed Jekyll portfolio theme
+baseurl: '/'
+url: 'https://iamwilliamhames.github.io/H4ck3r-Th3m3/'
 
-title: Daioho
-description: daioh11 | scripter | 2 years of experience
-
-baseurl: /daioh11.github.io #name of GitHub repository
-url: "https://daioh11.github.io/" #custom url to be used instead of GitHub repository
-email: #
-
-# Pagination
-paginate: 4
-permalink: /blog/:year/:title/
-paginate_path: /blog/page:num/
-
-# Social media links in footer
-linkedin: "#"
-stackoverflow: "#"
-github: "#"
-researchgate: "#"
-orcid: "#"
-quora: "#"
-instagram: "#"
-facebook: "#"
-bluesky: "#"
-substack: "#"
-
-# Markdown
-highlighter: rouge
+# Build settings
 markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
 
-# Tracker
-analytics:
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
-# optimization -> compress.html
-compress_html:
-  clippings: [html,div, p, ul, td, h1, h2, h3, h4,link, meta, footer, nav, img, header, hr, br, head, style, li, ul, ol, time, main, script, title]
-  comments: ["<!-- ", " -->"]
-  endings: [all]
-  ignore:
-    envs: [local]
-  blanklines: false
-  profile: false
-  startings: []
+sass:
+  sass_dir: _sass
+  style: compressed
 
-#collection
+paginate: 6
+paginate_path: '/blog/page:num/'
+
 collections:
   projects:
     output: true
     permalink: /projects/:name/
-    order:
-      - shortProject.md
-      - longerProjectTitle.md
-      - redirect.md
-      - project4.md
-      - project5.md
-      - project6.md
 
-sass:
-  sass_dir: /assets/css/_sass
-  style: compressed
-
-include:
-  - _pages
-
-exclude:
-  - README.md
-  - LICENSE.md
-
-plugins:
-  - jekyll-seo-tag
-  - jekyll-paginate
-  - jekyll-email-protect
-  - jekyll-target-blank
+permalink: /blog/:year/:month/:day/:title/
