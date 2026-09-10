@@ -1,6 +1,13 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #05081a;
+    background-image: url('../assets/images/wallpaper.jpg');
+
+    background-repeat: no-repeat;    
+    background-position: center;     
+    background-size: cover;         
+    background-attachment: fixed;
+
     color: #ffe0e0;  // Very light green, close to white
     line-height: 1.6;
     margin: 0;
