@@ -1,7 +1,9 @@
 body {
     font-family: 'Courier New', Courier, monospace;
     background-color: #05081a;
-    background-image: url('../assets/images/wallpaper.jpg');
+    background-image: 
+    linear-gradient(rgba(10, 11, 16, 0.85), rgba(10, 11, 16, 0.85)),
+    url('../images/wallpaper.jpg');
 
     background-repeat: no-repeat;    
     background-position: center;     
