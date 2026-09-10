@@ -2,6 +2,7 @@
     padding: 20px;
     max-width: 800px;
     margin: 0 auto;
+    color: #ff005d;
 }
 
 header {
@@ -14,22 +15,22 @@ nav ul {
     padding: 0;
     display: flex;
     justify-content: space-around;
-    background-color: #111;
+    background-color: #3727527e;
     padding: 10px 0;
 }
 
 section {
     margin-bottom: 40px;
-    border: 1px solid #0f0;
+    border: 1px solid #2a2c3d;
     padding: 20px;
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: #0a0b10;
 }
 
 .project, .blog-post {
     margin-bottom: 20px;
     padding: 10px;
-    border: 1px solid #0f0;
-    background-color: rgba(0, 255, 0, 0.05);
+    border: 1px solid rgb(247, 255, 16);
+    background-color: rgba(255, 0, 0, 0.05);
 }
 
 footer {
@@ -51,12 +52,12 @@ footer {
         flex-basis: calc(50% - 10px);
         margin-bottom: 10px;
         padding: 5px 10px;
-        background-color: rgba(0, 255, 0, 0.1);
-        border: 1px solid #0f0;
+        background-color: rgba(255, 0, 0, 0.1);
+        border: 1px solid rgb(255, 251, 23);
         text-align: center;
 
         &:hover {
-            background-color: rgba(0, 255, 0, 0.2);
+            background-color: rgba(255, 0, 72, 0.2);
         }
     }
 }
@@ -68,13 +69,13 @@ footer {
 }
 
 .project, .blog-post {
-    background-color: rgba(0, 255, 0, 0.05);
-    border: 1px solid #0f0;
+    background-color: rgba(0, 42, 255, 0.05);
+    border: 1px solid #2a2c3d;
     padding: 15px;
     transition: background-color 0.3s ease;
 
     &:hover {
-        background-color: rgba(0, 255, 0, 0.1);
+        background-color: rgba(255, 0, 47, 0.1);
     }
 }
 
@@ -101,8 +102,8 @@ footer {
 
 .project,
 .blog-post {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #0f0;
+    background-color: rgba(16, 15, 21, 0.5);
+    border: 1px solid #2a2c3d;
     padding: 15px;
     transition: all 0.3s ease;
     display: flex;
@@ -112,9 +113,9 @@ footer {
 
 .project:hover,
 .blog-post:hover {
-    background-color: rgba(0, 255, 0, 0.1);
+    background-color: #12131c;
     transform: translateY(-5px);
-    box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(219, 152, 185, 0.4)
 }
 
 .project h3,
@@ -133,26 +134,25 @@ footer {
 .glitch-link {
     align-self: flex-start;
     padding: 5px 10px;
-    background-color: rgba(0, 255, 0, 0.1);
-    border: 1px solid #0f0;
+    background-color: #0000ff1a;
+    border: 1px solid #ff005d;
     transition: all 0.3s ease;
 }
 
 .glitch-link:hover {
-    background-color: rgba(0, 255, 0, 0.2);
+    background-color: rgba(255, 0, 0, 0.2);
     color: #fff;
 }
 
 .digital-frontier-box {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 1px solid #0f0;
+    background-color: rgba(16, 15, 21, 0.5);
+    border: 1px solid #2a2c3d;
     padding: 20px;
     margin-bottom: 20px;
     transition: all 0.3s ease;
-
     &:hover {
-        background-color: rgba(0, 255, 0, 0.1);
-        box-shadow: 0 5px 15px rgba(0, 255, 0, 0.2);
+        background-color: #12131c;
+        box-shadow: 0 5px 15px rgba(219, 152, 185, 0.4)
     }
 
     ul {
@@ -169,7 +169,7 @@ footer {
                 content: '>';
                 position: absolute;
                 left: 0;
-                color: #0f0;
+                color: #ffc8f9;
             }
         }
     }

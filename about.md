@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Ab0ut H4ck3r Th3m3"
+title: "About Daioh11"
 permalink: /about/
 ---
 
