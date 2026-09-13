@@ -4,32 +4,16 @@ title: "About Daioh11"
 permalink: /about/
 ---
 
-Welcome to the digital realm of H4ck3r Th3m3, a cutting-edge Jekyll theme designed for the cybersecurity enthusiast, ethical hacker, and tech aficionado.
+Hi, I'm a Roblox and Godot developer focused on gameplay programming, with 2 years experience.
 
-## Core Features
 
-- **Gl1tch Eff3ct**: Unique text distortion for that authentic hacker aesthetic
-- **D4rk M0de**: Eye-friendly interface optimized for late-night coding sessions
-- **Resp0nsive L4yout**: Seamless experience across all devices
 
-## Design Philosophy
+## What can I do
 
-H4ck3r Th3m3 embodies the spirit of the digital underground. It's not just a theme; it's a statement. Every element is crafted to immerse visitors in a world of code, security, and digital exploration.
+I mainly work with Luau and enjoy building systems that are structured, scalable, and easy to maintain. **I'm particularly interested in combat mechanics, client-server communication, and server-authoritative gameplay**, but I'm not limited to these areas. I can work across different parts of a game — from designing gameplay systems and building UI to debugging, fixing complex issues, optimizing code, and improving existing architectures.
 
-## Customization
+**Сombat systems, inventory systems, quest systems, dialogue systems, ability systems, state machines, character controllers, matchmaking, save/data systems, interaction systems.**
 
-This theme is built with customization in mind. From adjusting the color scheme to adding new features, H4ck3r Th3m3 can be tailored to fit your unique digital persona.
+I also have experience working with Unity and Godot, which has allowed me to explore different engines and approaches to game development.
 
-## Security First
-
-In line with the hacker ethos, security is a top priority. H4ck3r Th3m3 is built with best practices in mind, ensuring your Jekyll site is as secure as it is stylish.
-
-## Open Source
-
-H4ck3r Th3m3 is open source and continuously evolving. Contributions, bug reports, and feature requests are always welcome. Join the community and help shape the future of this digital frontier.
-
-## Get Started
-
-Ready to transform your online presence? Dive into the documentation, explore the features, and make the digital realm your own with H4ck3r Th3m3.
-
-<a href="#" class="glitch-link" data-text="Expl0re Docs">Expl0re Docs</a>
+My programming experience includes** Luau, C#, C++, Python, GDScript, and Java.**
