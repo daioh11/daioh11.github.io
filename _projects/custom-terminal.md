@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "Cust0m T3rm1nal"
+title: "Combat Systems"
 ---
 
 The Cust0m T3rm1nal feature adds an interactive command-line interface to your website, enhancing the hacker aesthetic.
