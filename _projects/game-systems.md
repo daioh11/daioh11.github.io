@@ -1,6 +1,6 @@
 ---
 layout: project
-title: "D4rk M0de"
+title: "Game Systems"
 ---
 
 D4rk M0de is an essential feature of the H4ck3r Th3m3, providing a sleek, eye-friendly interface perfect for late-night coding sessions.
