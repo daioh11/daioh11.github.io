@@ -1,64 +1,89 @@
+// ==========================================
+// Lain / Wired Theme Variables
+// ==========================================
+$bg-main: #05081a;
+$bg-overlay: rgba(10, 11, 16, 0.85);
+
+$text-main: #ffe1e0;      // Бледный холодный CRT-белый
+$text-header: #f8f8f0;    // Яркий белый для заголовков
+$text-glitch: #a0ade2;    // Лавандово-серый для слоев глитча
+
+$accent-pink: #ff005d;    // Кибер-розовый (Lain/Wired)
+$accent-cyan: #00fff9;    // Кибер-циан
+$accent-purple: #8a2be2;  // Фиолетовая аура
+
+// ==========================================
+// Base Styles
+// ==========================================
 body {
     font-family: 'Courier New', Courier, monospace;
-    background-color: #05081a;
+    background-color: $bg-main;
     background-image: 
-    linear-gradient(rgba(10, 11, 16, 0.85), rgba(10, 11, 16, 0.85)),
-    url('../images/wallpaper.jpg');
+        linear-gradient($bg-overlay, $bg-overlay),
+        url('../images/wallpaper.jpg');
 
     background-repeat: no-repeat;    
     background-position: center;     
-    background-size: cover;         
+    background-size: cover;          
     background-attachment: fixed;
 
-    color: #ffe0e0;  // Very light green, close to white
+    color: $text-main;
     line-height: 1.6;
     margin: 0;
     padding: 0;
     overflow-x: hidden;
 }
 
+// Заголовки с мягкой фиолетовой неоновой аурой
 h1, h2, h3, h4, h5, h6 {
-    color: #f8f8f0;  // Keep headers bright green
-    text-shadow: 2px 2px #8a2be2;
+    color: $text-header;
+    text-shadow: 0 0 8px rgba($accent-purple, 0.6), 2px 2px $accent-purple;
 }
 
+// Обычные ссылки (Циан)
 a {
-    color: #00ffff;  // Keep links bright green
+    color: $accent-cyan;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s;
+    transition: all 0.3s ease;
+
+    &:hover {
+        color: #fff;
+        text-shadow: 0 0 8px $accent-cyan;
+    }
 }
 
-a:hover {
-    color: #fff;
-}
-
-// Ensure button text remains bright green
+// Кнопки и навигация (Розовый акцент)
 .glitch-link {
-    color: #ff005d;
+    color: $accent-pink;
+    
+    &:hover {
+        text-shadow: 0 0 8px $accent-pink;
+    }
 }
 
-// Add any other specific elements that should remain bright green here
-// For example, if you have navigation items that should stay green:
 nav ul li a {
-    color: #ff005d;
+    color: $accent-pink;
+
+    &:hover {
+        color: #fff;
+        text-shadow: 0 0 8px $accent-pink;
+    }
 }
 
-// Keep the glitch effect text bright green
-.glitch::before,
-.glitch::after {
-    color: #a0ade2;
+// Базовый цвет для глитч-эффектов
+.glitch {
+    &::before,
+    &::after {
+        color: $text-glitch;
+    }
 }
 
-// Improve readability for larger text blocks
+// Улучшение читаемости блоков текста (эффект свечения экрана)
 p, ul, ol {
-    color: #ffe1e0;  // Very light green, close to white
-    text-shadow: 0 0 2px rgba(255, 0, 111, 0.1);  // Subtle green glow
+    color: $text-main;
+    text-shadow: 
+        0 1px 3px rgba(0, 0, 0, 0.9),
+        0 0 8px rgba(5, 8, 26, 0.8);
+    
 }
-
-// Add a subtle hover effect to improve interactivity
-a:hover, .glitch-link:hover {
-    text-shadow: 0 0 5px #ff0000;  // Brighter green glow on hover
-}
-
-// ... (rest of the base styles)
