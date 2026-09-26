@@ -38,6 +38,31 @@ title: "Combat Systems"
 
 </div>
 
+<div class="demo-grid">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/S3m8ek_ofow?si=tmhwxdQS6mY8D88s" 
+      title="Dash System Demo" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="demo-info">
+    <h3> Dash and Block System</h3>
+    <p>
+      Responsive mobility engine handling directional dashes, momentum preservation, and cancels.
+    </p>
+
+    <ul class="feature-list">
+      <li><strong>Buffer & Inputs:</strong> Double-tap and macro buffering with configurable execution windows.</li>
+      <li><strong>State Cancels:</strong> Instant attack-to-dash and dash-cancel mechanics for fluid combat flow.</li>
+      <li><strong>I-Frames & Hurtboxes:</strong> Dynamic invincibility frame alignment synced across client/server.</li>
+      <li><strong>Velocity Curve:</strong> Custom acceleration vectors with inertia retention on wave-dashes.</li>
+    </ul>
+  </div>
+</div>
 
 <!-- Стили конкретно для этой сетки -->
 <style>
