@@ -31,6 +31,7 @@ title: "Combat Systems"
     <ul class="feature-list">
       <li><strong>Server Validation:</strong> Full server-side security checks for attack state and execution.</li>
       <li><strong>Secured Attack Phases:</strong> Prevents desync, input manipulation, and illegal state transitions.</li>
+      <li><strong>Server-Validated Hitstun:</strong> Attacks apply authoritative hitstun states on the server; subsequent hits gracefully refresh the active hitstun timer to prevent stunlock desyncs.</li>
       <li><strong>Attack Tokens:</strong> Unique token-based tracking to eliminate duplicate hit registration.</li>
       <li><strong>Lag Compensation:</strong> Precision-tuned client prediction and hitbox rollback registration.</li>
     </ul>
