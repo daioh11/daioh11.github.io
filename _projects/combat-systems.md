@@ -7,7 +7,7 @@ title: "Combat Systems"
   Collection of modular systems and architecture designed for competitive fighting games.
 </p>
 
-<!-- Сетка для видео и описания -->
+<!-- Сетка 1: Advanced Hit System -->
 <div class="demo-grid">
   
   <!-- Левая колонка: Видео -->
@@ -39,6 +39,7 @@ title: "Combat Systems"
 
 </div>
 
+<!-- Сетка 2: Block and Dash System -->
 <div class="demo-grid">
   <div class="video-container">
     <iframe 
@@ -51,7 +52,7 @@ title: "Combat Systems"
   </div>
 
   <div class="demo-info">
-    <h3> Block and Dash System</h3>
+    <h3>Block & Dash Mechanics</h3>
     <p>
       Integrated defensive and mobility framework supporting directional blocking, blockstun states, camera-aligned dashes, and frame-perfect invulnerability.
     </p>
@@ -62,6 +63,34 @@ title: "Combat Systems"
       <li><strong>Camera-Aligned Dashes:</strong> Calculates movement vectors based on the look/camera direction, allowing smooth character auto-alignment during execution.</li>
       <li><strong>Cooldown Management:</strong> Independent dash cooldown timers synced across client and server to prevent spamming.</li>
       <li><strong>Perfect Dash (iFrames):</strong> Precise timing windows grant a Perfect Dash, completely negating damage and state effects during the execution window.</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Сетка 3: Custom Knockback System -->
+<div class="demo-grid">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/L76LMEpDE1c?si=yKInV4moNh3Odgi6" 
+      title="Knockback System Demo" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
+
+  <div class="demo-info">
+    <h3>Custom Knockback & Grounded System</h3>
+    <p>
+      Physics-independent knockback pipeline built from scratch to bypass default engine quirks while supporting dual client/server validation.
+    </p>
+
+    <ul class="feature-list">
+      <li><strong>Custom Physics Engine:</strong> Entirely bypasses Roblox's built-in physics glitches, ensuring robust, predictable trajectories.</li>
+      <li><strong>Dual Validation:</strong> Grounded states and knockback are synchronized and authoritative on both client and server.</li>
+      <li><strong>Fully Customizable Parameters:</strong> Each attack individually configures knockback velocity, height, distance, and grounded state duration.</li>
+      <li><strong>OTG & Combo Chain Rules:</strong> Includes strict validation logic specifying which attacks can hit or OTG (off-the-ground) chain targets during knockback.</li>
+      <li><strong>Wake-Up Invulnerability:</strong> Grants invincibility frames (iFrames) upon recovering/standing up from a grounded state.</li>
     </ul>
   </div>
 </div>
