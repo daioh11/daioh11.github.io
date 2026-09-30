@@ -94,7 +94,33 @@ title: "Combat Systems"
     </ul>
   </div>
 </div>
+<!-- Сетка 4: Locational Limb System -->
+<div class="demo-grid">
+  <div class="video-container">
+    <iframe 
+      src="https://www.youtube.com/embed/nmcXXsrtKMI?si=bNEaOHQKAmSjhz3S" 
+      title="Limb Damage & Health System Demo" 
+      frameborder="0" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+      allowfullscreen>
+    </iframe>
+  </div>
 
+  <div class="demo-info">
+    <h3>Locational Limb & Health System</h3>
+    <p>
+      Modular anatomical damage system featuring independent body part tracking, dynamic debuffs, and real-time HUD synchronization.
+    </p>
+
+    <ul class="feature-list">
+      <li><strong>Locational Damage Routing:</strong> Precise hit detection that maps incoming attack vectors directly to individual limbs (Head, Torso, Arms, Legs).</li>
+      <li><strong>Server-Authoritative Limb Pools:</strong> Independent HP tracking for each limb with full server-side validation to prevent state manipulation.</li>
+      <li><strong>Crippled States & Debuffs:</strong> Depleting specific limb pools applies real-time movement and combat debuffs (e.g., leg damage affects mobility, arm damage penalties).</li>
+      <li><strong>Dynamic Body Doll HUD:</strong> Event-driven client UI that smoothly interpolates color gradients and status indicators based on limb condition.</li>
+      <li><strong>Memory-Safe Lifecycle Management:</strong> Automatic attribute re-binding and connection cleanup on character respawn or model replacement.</li>
+    </ul>
+  </div>
+</div>
 <!-- Стили конкретно для этой сетки -->
 <style>
   .project-intro {
