@@ -8,14 +8,11 @@ Want to get in touch? Here's how you can reach me:
 
 ## Email
 
-Reach me through the digital void: <span class="glitch" data-text="hacker@example.com">hacker@example.com</span>
+Contact me via email: <span class="glitch" data-text="daioho@proton.me">daioho@proton.me</span>
 
 ## Social Media
 
-- [GitHub](https://github.com/yourusername)
-- [LinkedIn](https://www.linkedin.com/in/yourusername)
-- [Twitter](https://twitter.com/yourusername)
+- [GitHub](https://github.com/daioh11)
+- [Roblox](https://www.roblox.com/users/1994274635/profile)
+- [Discord](https://discord.com/users/395833288733753355)
 
-## Encrypted Communication
-
-For sensitive communications, please use my PGP key:
