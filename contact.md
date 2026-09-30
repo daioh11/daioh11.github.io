@@ -12,7 +12,9 @@ Contact me via email: <span class="glitch" data-text="daioho@proton.me">daioho@p
 
 ## Social Media
 
-- [GitHub](https://github.com/daioh11)
-- [Roblox](https://www.roblox.com/users/1994274635/profile)
 - [Discord](https://discord.com/users/395833288733753355)
+- [Roblox](https://www.roblox.com/users/1994274635/profile)
+- [GitHub](https://github.com/daioh11)
+
+
 
