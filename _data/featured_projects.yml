@@ -3,5 +3,5 @@
   url: /projects/combat-systems
 
 - title: "Game Systems"
-  description: "Collection of general systems."
+  description: "Collection of general gameplay mechanics, core architecture, and supporting utility frameworks. "
   url: /projects/game-systems
