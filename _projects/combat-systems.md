@@ -42,8 +42,8 @@ title: "Combat Systems"
 <div class="demo-grid">
   <div class="video-container">
     <iframe 
-      src="https://www.youtube.com/embed/S3m8ek_ofow?si=tmhwxdQS6mY8D88s" 
-      title="Dash System Demo" 
+      src="https://www.youtube.com/embed/aRpM-r2gINQ?si=fCy9Z3AbdtRxnwKj" 
+      title="Block and Dash System Demo" 
       frameborder="0" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
       allowfullscreen>
@@ -51,16 +51,17 @@ title: "Combat Systems"
   </div>
 
   <div class="demo-info">
-    <h3> Dash and Block System</h3>
+    <h3> Block and Dash System</h3>
     <p>
-      Responsive mobility engine handling directional dashes, momentum preservation, and cancels.
+      Integrated defensive and mobility framework supporting directional blocking, blockstun states, camera-aligned dashes, and frame-perfect invulnerability.
     </p>
 
     <ul class="feature-list">
-      <li><strong>Buffer & Inputs:</strong> Double-tap and macro buffering with configurable execution windows.</li>
-      <li><strong>State Cancels:</strong> Instant attack-to-dash and dash-cancel mechanics for fluid combat flow.</li>
-      <li><strong>I-Frames & Hurtboxes:</strong> Dynamic invincibility frame alignment synced across client/server.</li>
-      <li><strong>Velocity Curve:</strong> Custom acceleration vectors with inertia retention on wave-dashes.</li>
+      <li><strong>Angle-Based Blocking:</strong> Calculates incoming attack vectors relative to the defender's facing angle to determine valid blocks.</li>
+      <li><strong>Server Blockstun:</strong> Applies dynamic blockstun states and frame penalties to prevent immediate punish execution.</li>
+      <li><strong>Camera-Aligned Dashes:</strong> Calculates movement vectors based on the look/camera direction, allowing smooth character auto-alignment during execution.</li>
+      <li><strong>Cooldown Management:</strong> Independent dash cooldown timers synced across client and server to prevent spamming.</li>
+      <li><strong>Perfect Dash (iFrames):</strong> Precise timing windows grant a Perfect Dash, completely negating damage and state effects during the execution window.</li>
     </ul>
   </div>
 </div>
